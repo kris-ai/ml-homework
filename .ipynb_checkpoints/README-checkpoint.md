@@ -1,6 +1,8 @@
 # Unit 11—Risky Business
+## Kris Kish Homework Solution
+#### UCB FinTech Bootcamp
 
-![Credit Risk](Images/credit-risk.jpg)
+![Credit Risk](Instructions/Images/credit-risk.jpg)
 
 ## Background
 
@@ -15,17 +17,20 @@ In this assignment, you will build and evaluate several machine-learning models 
 
 ### Files
 
-[Resampling Starter Notebook](Starter_Code/credit_risk_resampling.ipynb)
+[Resampling Solutions Notebook](solution/credit_risk_resampling.ipynb)
 
-[Ensemble Starter Notebook](Starter_Code/credit_risk_ensemble.ipynb)
+[Ensemble Solutions Notebook](Ssolution/credit_risk_ensemble.ipynb)
 
-[Lending Club Loans Data](Instructions/Resources/LoanStats_2019Q1.csv.zip)
+### Resources
+
+[Lending Club Loans Data](solution/Resources/LoanStats_2019Q1.csv.zip)
 
 ---
 
 ### Instructions
 
 #### Resampling
+[Resampling Answers](#Resampling-Answers)
 
 You will use the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate logistic regression classifiers using the resampled data.
 
@@ -43,6 +48,8 @@ For each of the above, you will need to:
 3. Calculate the `confusion matrix` from `sklearn.metrics`.
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
+## Resampling Answers
+
 Use the above to answer the following:
 
 > Which model had the best balanced accuracy score?
@@ -52,6 +59,8 @@ Use the above to answer the following:
 > Which model had the best geometric mean score?
 
 #### Ensemble Learning
+[Ensemble Learning Answers](#Ensemble-Learning-Answers)
+
 
 In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the [Balanced Random Forest Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.BalancedRandomForestClassifier.html#imblearn-ensemble-balancedrandomforestclassifier) and the [Easy Ensemble Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.EasyEnsembleClassifier.html#imblearn-ensemble-easyensembleclassifier). Refer to the documentation for each of these to read about the models and see examples of the code.
 
@@ -63,6 +72,8 @@ Be sure to complete the following steps for each model:
 4. Print the confusion matrix from `sklearn.metrics`.
 5. Generate a classification report using the `imbalanced_classification_report` from imbalanced learn.
 6. For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
+
+## Ensemble Learning Answers
 
 Use the above to answer the following:
 
